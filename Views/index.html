@@ -1,0 +1,334 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello, Mountain - Home</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  crossorigin="anonymous" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" />
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,500,500i,600,700,800,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/575b8a23f1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+  <link rel="stylesheet" href="../Content/Styles/site.css" />
+</head>
+
+
+
+
+<body>
+  <div class="row">
+    <section class="hellomtn-section home-pg bg col-12" id="entrySection">
+      <img class="logo" src="../Content/Assets/Images/Type_Logo_2_Orange.png">
+      <div class="nav-background pt-5"><a class="nav-link">See Us Live</a></div>
+      <div class="nav-background py-3"><a class="nav-link">Check out our Music</a></div>
+      <div class="nav-background pb-5"><a class="nav-link">About the Band</a></div>
+
+      <!-- <header>
+      <nav class="navbar navbar-expand-sm navbar-toggleable-sm">
+      <div class="container-fluid">
+      <img class="navbar-brand" src="../Content/Assets/Images/hmlogo.png">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse d-sm-inline-flex">
+    <ul class="navbar-nav justify-content-end flex-grow-1">
+    <li class="nav-item">
+    <a class="nav-link">About</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link">Music</a>
+</li>
+<li class="nav-item">
+<a class="nav-link">Contact</a>
+</li>
+</ul>
+</div>
+</nav>
+</header> -->
+<!-- <div class="container">
+<div class="row">
+<div class="col hero-header">
+<h1 class="text-right">See Us Live</h1>
+</div>
+</div>
+<div class="row">
+<div class="col show-info">
+<h4 class="text-right">Aug 15 | Denver, CO</h4>
+<h2 class="text-right">Larimer Lounge</h2>
+<h6 class="text-right">w/ The High Divers and The Mondegreens</h6>
+<button type="button" class="btn btn-outline-primary float-right">Tickets</button>
+</div>
+</div>
+<div class="row">
+<div class="col show-info">
+<h4 class="text-right">Aug 17 | Denver, CO</h4>
+<h2 class="text-right">Hirshorn Park</h2>
+<h6 class="text-right">Lo-Hi Summer Fun Day</h6>
+<button type="button" class="btn btn-outline-primary float-right">Tickets</button>
+</div>
+</div>
+</div> -->
+</section>
+
+
+
+
+
+
+
+<div class="pageSection" id="funSection">
+
+
+  <div class="bigTextCon" id="bigTextConTop">
+    <p class="lookDontText" id="lookDontTextTop" style="transform: translate3d(400.429px, 0px, 0px);">Buy Tickets to Our Live Shows</p>
+  </div>
+  <section class="module tour-list container">
+    <div class="content align-middle">
+      <ul class="shows" id="eventsContainer">
+        <!-- Date -->
+        <li id="eventTemplate" class="d-none single-show">
+          <date>{Date} {TimeStart}</date>
+          <p class="place"><a target="_blank" href="http://maps.google.com/?q={Address}">{LocationName}</a></p>
+          <p class="country">{City}</p>
+          <p class="description">{Summary}</p>
+          <!-- <div class="button-container">
+            <a class="btn-buy" href="https://www.facebook.com/pg/angeleouenpoudre/events/" target="_blank">Buy tickets</a>
+          </div> -->
+          <div class="button-container">
+          <button class="btn-buy" onclick="openTicketRequest(this)" data-subject="Tickets for {LocationNameI} {DateI} Show">Buy Tickets</button>
+        </div>
+        </li>
+        <!-- Date -->
+        <!-- <li>
+          <date>10 Nov 2019</date>
+          <p class="place">Lotto Arena</p>
+          <p class="country">Antwerp, Belgium</p>
+          <p class="description"> w/ Oxeye Daisy and someone else</p>
+
+          <div class="button-container">
+            <a class="btn-buy" href="https://www.facebook.com/pg/angeleouenpoudre/events/" target="_blank">Buy tickets</a>
+          </div>
+        </li>
+        <li>
+          <date>10 Nov 2019</date>
+          <p class="place">Lotto Arena</p>
+          <p class="country">Antwerp, Belgium</p>
+          <div class="button-container">
+            <a class="btn-buy" href="https://www.facebook.com/pg/angeleouenpoudre/events/" target="_blank">Buy tickets</a>
+          </div>
+        </li> -->
+
+      </ul>
+<button class="py-3 my-5 btn btn-primary">Ask Us to Play</button>
+
+    </div>
+  </section>
+  <div class="bigTextCon" id="bigTextConBottom">
+    <p class="lookDontText" id="lookDontTextBottom" style="transform: matrix(1, 0, 0, 1, 0, 0);">Buy Tickets to Our Live Shows</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<section class="abt-pg hellomtn-section row col-12" id="anchor_scaleOffExample">
+  <div class="bio-pane col-sm-5">
+    <h5>About the Band</h5>
+
+    <h3>Hello, Mountain is a Denver, Colorado-based indie rock trio originally formed in 2015
+      by Stephen Pamas (Vocals, Guitar), Jack Falk (Bass), and Patrick Smith (Drums, Synth, Backing Vocals).
+      With a wide range of influences, the band has crafted a unique sound centered around singer-songwriter Stephen Pamas.
+      The band has released three lengthy EP’s with a full length record in the works.</h3>
+    </div>
+    <div class="pizza-pane col-sm-7">
+    </div>
+  </section>
+
+  <section class="main-section  listen-pg hellomtn-section row col-12">
+    <div class="leftpane col-sm-4">
+      <div class="abt-album">
+        <h5>Enigma (2016)</h5>
+        <div class="enigma">
+          The debut release from Hello, Mountain is an inception of unique sound.
+          The band found itself difficult to define and Enigma strives to explain the mystery.
+          It is an attempt to find a place and purpose. Enigma addresses the unknown and uncertainty in the routine,
+          much like repeating the same word and doubting if there is still knowledge of the accent or definition.
+          You’ll find yourself listening to the raw sounds long enough to create an anomaly within and a struggle to define what is seemingly obvious.
+        </div>
+      </div>
+
+      <div class="album">
+        <img class="album-img mx-auto d-block" src="../Content/Assets/Images/enigma.png">
+      </div>
+    </div>
+    <div class="middlepane col-sm-4">
+      <div class="abt-album">
+        <h5>Machine (2017)</h5>
+        <div class="machine">
+          The follow up release is a polished continuation from the Denver, Colorado based trio.
+          There is an identity in place; soaring vocals, matured arrangements, with a driving rhythm section backing it up.
+          The EP confronts the struggles of monotony and the constant progression that comes with the state of equilibrium and the trepidation of what comes next.
+          Each song on this record will tell you a story about yourself that helps push you forward even in your most repetitive and complacent states.
+        </div>
+      </div>
+
+      <div class="album">
+        <img class="album-img album-play mx-auto d-block" style="animation-play-state:paused" src="../Content/Assets/Images/machine.png">
+        <audio controls id="testAudio">
+          <source src="../Content/Assets/Audio/moving.mp3"/>
+          Your browser does not support the audio element.
+        </audio>
+
+        <div class="album-list">
+          <ul class="songs">
+            <li class="song">
+              <div class="events">
+                <h6>Squares</h6>
+                <!-- <audio controls id="testAudio">
+                <source src="../Content/Assets/Audio/moving.mp3"/>
+                Your browser does not support the audio element.
+              </audio> -->
+            </div>
+          </li>
+
+          <li class="song">
+            <div class="events">
+              <h6>Fear of Heights</h6>
+              <!-- <audio controls id="testAudio">
+              <source src="../Content/Assets/Audio/moving.mp3"/>
+              Your browser does not support the audio element.
+            </audio> -->
+          </div>
+        </li>
+        <li class="song">
+          <div class="events">
+            <h6>My Morning</h6>
+            <!-- <audio controls id="testAudio">
+            <source src="../Content/Assets/Audio/moving.mp3"/>
+            Your browser does not support the audio element.
+          </audio> -->
+        </div>
+      </li>
+      <li class="song">
+        <div class="events">
+          <h6>Right or Wrong</h6>
+          <!-- <audio controls id="testAudio">
+          <source src="../Content/Assets/Audio/moving.mp3"/>
+          Your browser does not support the audio element.
+        </audio> -->
+      </div>
+    </li>
+    <li class="song">
+      <div class="events">
+        <h6>Upstate</h6>
+        <!-- <audio controls id="testAudio">
+        <source src="../Content/Assets/Audio/moving.mp3"/>
+        Your browser does not support the audio element.
+      </audio> -->
+    </div>
+  </li>
+  <li class="song">
+    <div class="events">
+      <h6>Hayman</h6>
+      <!-- <audio controls id="testAudio">
+      <source src="../Content/Assets/Audio/moving.mp3"/>
+      Your browser does not support the audio element.
+    </audio> -->
+  </div>
+</li>
+
+
+</ul>
+
+<div class="year year--end">
+  <div class="inner">
+
+  </div>
+</div>
+</div>
+
+
+
+</div>
+
+
+</div>
+<div class="rightpane col-sm-4">
+  <div class="abt-album">
+    <h5>Transcend (2019)</h5>
+    <div class="transcend">
+      Transcend is the third release and is not even close to the end for the Colorado group.
+      It is a showing of their constant movement ahead.
+      It’s acknowledges the journey through ambiguity and being content with the uncertainty of direction.
+      Transcend was written in order to discern the reasons for the time you’ve misused and the indecision you may find on how to squander it next.
+      This is meant to push you forward; it is not the end.
+    </div>
+  </div>
+
+  <div class="album">
+    <img class="album-img mx-auto d-block" src="../Content/Assets/Images/transcend.png">
+  </div>
+
+</div>
+</section>
+<!-- <footer class="footer text-muted">
+<div class="container-fluid">
+&copy; 2019 - Hello, Mountain
+</div>
+</footer> -->
+</div>
+</body>
+<!--
+<script src="../Scripts/binta-scroll.js"></script>
+<script>
+$(document).ready(function () {
+$('.horizontal-scroll').bintaScroll({
+sectionEl:".hellomtn-section"
+, scaleOff:".hellomtn-section.scale-off"
+, horizontal: true
+});
+
+
+var audiostate = document.getElementById("testAudio");
+audiostate.onplay = function() {
+$(this).parent().parent().find('.album-img').css('animation-play-state','running')};
+
+audiostate.onended = function() {
+$(this).parent().parent().find('.album-img').css('animation-play-state','paused')};
+
+audiostate.onpause = function() {
+$(this).parent().parent().find('.album-img').css('animation-play-state','paused')};
+
+});
+
+</script> -->
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+<script src="../Scripts/server.js"></script>
+<script src="../Scripts/gcal.js"></script>
+
+
+
+
+
+
+
+
+
+
+</html>
