@@ -583,7 +583,7 @@ $(document).ready(function(){
 
 	//-------TextMoveBottom
 	var bigMagic = new ScrollMagic.Scene({
-		triggerElement:'#anchor_scaleOffExample',
+		triggerElement:'#pinContainer',
 		duration: '120%',
 		triggerHook:1
 	})
@@ -642,3 +642,26 @@ window.onload = function () {
 intro01.play();
 
 }
+
+
+
+$(function () { // wait for document ready
+		// init
+		var controller = new ScrollMagic.Controller();
+
+		// define movement of panels
+		var wipeAnimation = new TimelineMax()
+			// .fromTo("section.panel.album-one", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
+			.fromTo("section.panel.album-two",    1, {x: "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
+			.fromTo("section.panel.album-three", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone}); // in from top
+
+		// create scene to pin and link animation
+		new ScrollMagic.Scene({
+				triggerElement: "#pinContainer",
+				triggerHook: "onLeave",
+				duration: "300%"
+			})
+			.setPin("#pinContainer")
+			.setTween(wipeAnimation)
+			.addTo(controller);
+	});
