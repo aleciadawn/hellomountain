@@ -4,50 +4,51 @@
 
 //Example album
 var albumOne = {
-  description: 'Transcend is the third release and is not even close to the end for the Colorado group. It is a showing of their constant movement ahead. It’s acknowledges the journey through ambiguity and being content with the uncertainty of direction. Transcend was written in order to discern the reasons for the time you’ve misused and the indecision you may find on how to squander it next. This is meant to push you forward; it is not the end.',
   name: 'Transcend',
+  description: 'Transcend is the third release and is not even close to the end for the Colorado group. It is a showing of their constant movement ahead. It’s acknowledges the journey through ambiguity and being content with the uncertainty of direction. Transcend was written in order to discern the reasons for the time you’ve misused and the indecision you may find on how to squander it next. This is meant to push you forward; it is not the end.',
   pinClass:'album-one',
   albumArtUrl: '../Content/Assets/Images/transcend-cover.png',
   // albumDescription: "Transcend is the third release and is not even close to the end for the Colorado group. It is a showing of their constant movement ahead. It’s acknowledges the journey through ambiguity and being content with the uncertainty of direction. Transcend was written in order to discern the reasons for the time you’ve misused and the indecision you may find on how to squander it next. This is meant to push you forward; it is not the end."",
   tracks: [
-    { name: 'Welcome To Paris', length: '3:33' },
-    { name: 'Electric Empire', length: '2:28' },
-    { name: 'Papercut', length: '4:02' },
-    { name: 'Metaman', length: '3:05' },
-    { name: 'Instant Beta', length: '2:42' },
-    { name: 'Instant Delta', length: '2:55' }
+    { name: 'The Window', length: '4:40' },
+    { name: 'Face You Know', length: '3:02' },
+    { name: 'Futures', length: '4:17' },
+    { name: 'Wasting It Right', length: '4:38' },
+    { name: 'Rewind', length: '6:14' },
+    { name: 'Moving', length: '6:18' },
+    { name: 'The End', length: '2:58' }
   ]
 };
 //Example album
 var albumTwo = {
-  description: 'Transcend is the third release and is not even close to the end for the Colorado group. It is a showing of their constant movement ahead. It’s acknowledges the journey through ambiguity and being content with the uncertainty of direction. Transcend was written in order to discern the reasons for the time you’ve misused and the indecision you may find on how to squander it next. This is meant to push you forward; it is not the end.',
-  name: 'Transcend',
+  name: 'Machine',
+  description: 'The follow up release is a polished continuation from the Denver, Colorado based trio. There is an identity in place; soaring vocals, matured arrangements, with a driving rhythm section backing it up. The EP confronts the struggles of monotony and the constant progression that comes with the state of equilibrium and the trepidation of what comes next. Each song on this record will tell you a story about yourself that helps push you forward even in your most repetitive and complacent states.',
   pinClass:'album-two',
-  albumArtUrl: '../Content/Assets/Images/transcend-cover.png',
+  albumArtUrl: '../Content/Assets/Images/machine-cover.png',
   // albumDescription: "Transcend is the third release and is not even close to the end for the Colorado group. It is a showing of their constant movement ahead. It’s acknowledges the journey through ambiguity and being content with the uncertainty of direction. Transcend was written in order to discern the reasons for the time you’ve misused and the indecision you may find on how to squander it next. This is meant to push you forward; it is not the end."",
   tracks: [
-    { name: 'This is super neato', length: '3:33' },
-    { name: 'Electric Empire', length: '2:28' },
-    { name: 'Papercut', length: '4:02' },
-    { name: 'Metaman', length: '3:05' },
-    { name: 'Instant Beta', length: '2:42' },
-    { name: 'Instant Delta', length: '2:55' }
+    { name: 'Squares', length: '2:38' },
+    { name: 'Fear of Heights', length: '3:17' },
+    { name: 'My Morning', length: '4:16' },
+    { name: 'Right or Wrong', length: '4:11' },
+    { name: 'Upstate', length: '4:32' },
+    { name: 'Heyman', length: '6:43' }
   ]
 };
 //Example album
 var albumThree = {
-  description: 'Transcend is the third release and is not even close to the end for the Colorado group. It is a showing of their constant movement ahead. It’s acknowledges the journey through ambiguity and being content with the uncertainty of direction. Transcend was written in order to discern the reasons for the time you’ve misused and the indecision you may find on how to squander it next. This is meant to push you forward; it is not the end.',
-  name: 'Transcend',
+  name: 'Enigma',
+  description: 'The debut release from Hello, Mountain is an inception of unique sound. The band found itself difficult to define and Enigma strives to explain the mystery. It is an attempt to find a place and purpose. Enigma addresses the unknown and uncertainty in the routine, much like repeating the same word and doubting if there is still knowledge of the accent or definition. You’ll find yourself listening to the raw sounds long enough to create an anomaly within and a struggle to define what is seemingly obvious.',
   pinClass:'album-three',
-  albumArtUrl: '../Content/Assets/Images/transcend-cover.png',
+  albumArtUrl: '../Content/Assets/Images/enigma-cover.png',
   // albumDescription: "Transcend is the third release and is not even close to the end for the Colorado group. It is a showing of their constant movement ahead. It’s acknowledges the journey through ambiguity and being content with the uncertainty of direction. Transcend was written in order to discern the reasons for the time you’ve misused and the indecision you may find on how to squander it next. This is meant to push you forward; it is not the end."",
   tracks: [
-    { name: 'Bob is your uncle', length: '3:33' },
-    { name: 'Electric Empire', length: '2:28' },
-    { name: 'Papercut', length: '4:02' },
-    { name: 'Metaman', length: '3:05' },
-    { name: 'Instant Beta', length: '2:42' },
-    { name: 'Instant Delta', length: '2:55' }
+    { name: 'Hello, Mountain', length: '3:32' },
+    { name: 'Everyting', length: '3:33' },
+    { name: 'Deer', length: '4:37' },
+    { name: 'Something New', length: '4:24' },
+    { name: 'Manhattan', length: '3:58' },
+    { name: 'Over the Fence', length: '5:22' }
   ]
 };
 
