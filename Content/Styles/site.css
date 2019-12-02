@@ -9,7 +9,7 @@ body, html {
   letter-spacing: 2.5px;
   color: #331D11;
   background-color: #F6F2F3;
-  background-color: #5A7D7C;
+  background-color: #E0E0E0
 }
 body{
   overflow-x: hidden;
@@ -54,23 +54,25 @@ h5 {
 }
 
 h6 {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 900;
 }
 p {
   margin-bottom: 0px;
 
 }
 
-.text-cream {
-  color: #EEE3CA;
+.text-red {
+  color: #9D3B30;
 }
 
 .btn-primary {
-  background-color: #9D3B30 !important;
-  border: 2px solid #EEE3CA !important;
-  box-shadow: 4px 6px #EEE3CA !important;
-  color: #EEE3CA !important;
+  background-color: #E0E0E0 !important;
+  border: 2px solid #9D3B30 !important;
+  box-shadow: 4px 6px #9D3B30 !important;
+  color: #9D3B30 !important;
   width: 100%;
   border-radius: 0px;
   padding: 10px 25px;
@@ -140,7 +142,7 @@ a.nav-link {
   position:relative;
   height:100vh;
   min-height: 700px;
-  background-color: #9D3B30;
+  background-color: #E0E0E0;
   z-index:2;
 }
 
@@ -170,7 +172,7 @@ a.nav-link {
   font-size: 150px;
   width: 6500px;
   left: 100px;
-  color: #EEE3CA;
+  color: #9D3B30;
   font-weight: 900;
   opacity: .25;
   letter-spacing: 30px;
@@ -220,33 +222,6 @@ a.nav-link {
     margin: 20px auto;
 }
 
-/* .content .shows {
-  margin-bottom: 60px;
-  grid-column: 1 / 11;
-  display: grid;
-  grid-template-columns: auto;
-  grid-column-gap: 4%;
-  text-transform: uppercase;
-  font-size: 16px;
-  letter-spacing: 0.3px;
-  font-weight: 600;
-  align-items: center;
-  padding: 20px 10px;
-  grid-template-areas: "date place country buttons";
-  transition: all 1s ease;
-  cursor: pointer;
-
-} */
-
-
-
-
-
-
-/* .content .shows .button-container {
-  display: flex;
-  grid-area: buttons;
-} */
 
 .content .shows .button-container .btn-buy {
   font-style: normal;
@@ -255,15 +230,15 @@ a.nav-link {
   line-height: 16px;
   font-weight: 300;
   letter-spacing: 3px;
-  color: #EEE3CA !important;
+  color: #9D3B30!important;
   background-color: transparent;
   padding: 8px 16px;
   transition: all 0.6s ease !important;
-  border: 2px solid #EEE3CA !important;
+  border: 2px solid #9D3B30 !important;
   cursor: pointer;
 }
 .content .shows .button-container .btn-buy:hover {
-  background-color: #EEE3CA !important;
+  background-color: #9D3B30 !important;
   box-shadow: none;
   color: #9D3B30 !important;
   transition: background-color .5s ease-out, color .5s ease-out;
@@ -279,7 +254,7 @@ a.nav-link {
 }
 .content table tr {
   line-height: 1.8;
-  border-top: 2px solid rgba(	238, 227, 202, .25);
+  border-top: 2px solid #F5EFF1;
   font-weight: 300;
   letter-spacing: 2.5px;
 }
@@ -289,12 +264,12 @@ a.nav-link {
 }
 
 .content table tr td a:hover{
-  color: #EEE3CA;
+  color: #9D3B30;
 }
 
 .content table tr td a:active{
 
-  color: #EEE3CA ;
+  color: #9D3B30 ;
 }
 @media only screen and (max-width: 768px) {
   .lookDontText{
@@ -362,17 +337,24 @@ a.nav-link {
   position: relative;
 }
 .album-one {
-  background-color: #F6F2F3;
+  background-color: #C5C3C3;
+  color: #918B8D;
+  color: #777274;
+  color: #504C4D;
 
 }
 .album-two {
-  background-color: #F6F2F3;
-
+  background-color: #C5C3C3;
+  color: #918B8D;
+  color: #777274;
+  color: #504C4D;
 }
 
 .album-three {
-  background-color: #F6F2F3;
-
+  background-color: #C5C3C3;
+  color: #918B8D;
+  color: #777274;
+  color: #504C4D;
 }
 .album header {
   display: flex;
@@ -428,7 +410,8 @@ a.nav-link {
 }
 .album table tr {
   line-height: 1.8;
-  border-top: 2px solid rgba(31, 24, 26, .3);
+  border-top: 2px solid #918B8D;
+  color: #504C4D;
 }
 .album table tr td {
   padding: 10px 100px;
@@ -457,10 +440,14 @@ i {
 
 .bio-pane {
   float: left;
-  background-color: #5A7D7C;
+  background-color: #E0E0E0;
   border-collapse: collapse;
   padding: 60px;
-  color: #F6F2F3;
+  color: #9D3B30;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.75;
+
 }
 img.barn {
   width: 100%;
