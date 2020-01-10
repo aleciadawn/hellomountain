@@ -90,9 +90,9 @@ p {
 }
 
 .btn-primary:hover {
-  background-color: #EEE3CA !important;
+  background-color: #9D3B30 !important;
   box-shadow: none !important;
-  color: #9D3B30 !important;
+  color: #E0E0E0 !important;
   transition: box-shadow .5s ease-out, background-color .5s ease-out, color .5s ease-out !important;
   -webkit-transition: box-shadow .5s ease-out, background-color .5s ease-out, color .5s ease-out !important;
   -moz-transition: box-shadow .5s ease-out, background-color .5s ease-out, color .5s ease-out !important;
