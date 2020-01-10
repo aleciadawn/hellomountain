@@ -176,6 +176,7 @@ a.nav-link {
   font-weight: 900;
   opacity: .25;
   letter-spacing: 30px;
+  text-transform: uppercase;
 }
 
 #lookDontTextTop{
