@@ -16,6 +16,7 @@ Try to match the {name of replacement} pattern for ease of use.
 $(document).ready(function () {
     // $('.modal').modal('hide');
     $.ajax({ method: "GET", url: url }).done(function (resp) {
+        var noShows = true;
         for (var i = 0; i < resp.items.length; i++) {
             var appendMe = $("#eventTemplate").html();
             var item = resp.items[i];
@@ -25,6 +26,7 @@ $(document).ready(function () {
             //skip
             if(moment().diff(ms, 'minutes') > 0 && moment().diff(me, 'minutes') > 0)
                 continue;
+            noShows = false;
             if (item.location) {
                 var locationSplit = item.location.split(",");
                 var location = locationSplit[0];
@@ -42,6 +44,7 @@ $(document).ready(function () {
                 ).replace("{City}",locationSplit[1] + ", " + locationSplit[2].split(" ")[1]);
 
             }
+
             appendMe = appendMe
             .replace(
                 "{Date}",
@@ -69,6 +72,9 @@ $(document).ready(function () {
             appendMe.replace("d-none","");
             $("#eventsContainer").append(appendMe);
 
+        }
+        if (noShows){
+          $('.no-show-message').removeClass('d-none');
         }
     });
 });
