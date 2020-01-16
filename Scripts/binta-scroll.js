@@ -10,13 +10,13 @@ var albumOne = {
   albumArtUrl: '../content/assets/images/transcend-cover.png',
   // albumDescription: "Transcend is the third release and is not even close to the end for the Colorado group. It is a showing of their constant movement ahead. It’s acknowledges the journey through ambiguity and being content with the uncertainty of direction. Transcend was written in order to discern the reasons for the time you’ve misused and the indecision you may find on how to squander it next. This is meant to push you forward; it is not the end."",
   tracks: [
-    { name: 'The Window', length: '4:40', song: new Audio('../content/assets/audio/transcend/01_the_window.mp3') },
-    { name: 'Face You Know', length: '3:02', song: new Audio('../content/assets/audio/transcend/02_face_you_know.mp3') },
-    { name: 'Futures', length: '4:17', song: new Audio('../content/assets/audio/transcend/03_futures.mp3') },
-    { name: 'Wasting It Right', length: '4:38', song: new Audio('../content/assets/audio/transcend/04_wasting_it_right.mp3') },
-    { name: 'Rewind', length: '6:14', song: new Audio('../content/assets/audio/transcend/05_rewind.mp3') },
-    { name: 'Moving', length: '6:18', song: new Audio('../content/assets/audio/transcend/06_moving.mp3') },
-    { name: 'The End', length: '2:58', song: new Audio('../content/assets/audio/transcend/07_transcend.mp3') }
+    { name: 'The Window', length: '4:40', song: new Audio('../Content/Assets/Audio/Transcend/01_the_window.mp3') },
+    { name: 'Face You Know', length: '3:02', song: new Audio('../Content/Assets/Audio/Transcend/02_face_you_know.mp3') },
+    { name: 'Futures', length: '4:17', song: new Audio('../Content/Assets/Audio/Transcend/03_futures.mp3') },
+    { name: 'Wasting It Right', length: '4:38', song: new Audio('../Content/Assets/Audio/Transcend/04_wasting_it_right.mp3') },
+    { name: 'Rewind', length: '6:14', song: new Audio('../Content/Assets/Audio/Transcend/05_rewind.mp3') },
+    { name: 'Moving', length: '6:18', song: new Audio('../Content/Assets/Audio/Transcend/06_moving.mp3') },
+    { name: 'The End', length: '2:58', song: new Audio('../Content/Assets/Audio/Transcend/07_transcend.mp3') }
   ]
 };
 //Example album
@@ -27,12 +27,12 @@ var albumTwo = {
   albumArtUrl: '../content/assets/images/machine-cover.png',
   // albumDescription: "Transcend is the third release and is not even close to the end for the Colorado group. It is a showing of their constant movement ahead. It’s acknowledges the journey through ambiguity and being content with the uncertainty of direction. Transcend was written in order to discern the reasons for the time you’ve misused and the indecision you may find on how to squander it next. This is meant to push you forward; it is not the end."",
   tracks: [
-    { name: 'Squares', length: '2:38', song: new Audio('../content/assets/audio/machine/01_squares.mp3') },
-    { name: 'Fear of Heights', length: '3:17', song: new Audio('../content/assets/audio/machine/02_fear_of_heights.mp3')},
-    { name: 'My Morning', length: '4:16', song: new Audio('../content/assets/audio/machine/03_my_morning.mp3')},
-    { name: 'Right or Wrong', length: '4:11', song: new Audio('../content/assets/audio/machine/04_right_or_wrong.mp3')},
-    { name: 'Upstate', length: '4:32', song: new Audio('../content/assets/audio/machine/05_upstate.mp3')},
-    { name: 'Heyman', length: '6:43', song: new Audio('../content/assets/audio/machine/06_hayman.mp3')}
+    { name: 'Squares', length: '2:38', song: new Audio('../Content/Assets/Audio/Machine/01_squares.mp3') },
+    { name: 'Fear of Heights', length: '3:17', song: new Audio('../Content/Assets/Audio/Machine/02_fear_of_heights.mp3')},
+    { name: 'My Morning', length: '4:16', song: new Audio('../Content/Assets/Audio/Machine/03_my_morning.mp3')},
+    { name: 'Right or Wrong', length: '4:11', song: new Audio('../Content/Assets/Audio/Machine/04_right_or_wrong.mp3')},
+    { name: 'Upstate', length: '4:32', song: new Audio('../Content/Assets/Audio/Machine/05_upstate.mp3')},
+    { name: 'Heyman', length: '6:43', song: new Audio('../Content/Assets/Audio/Machine/06_hayman.mp3')}
   ]
 };
 //Example album
@@ -43,12 +43,12 @@ var albumThree = {
   albumArtUrl: '../content/assets/images/enigma-cover.png',
   // albumDescription: "Transcend is the third release and is not even close to the end for the Colorado group. It is a showing of their constant movement ahead. It’s acknowledges the journey through ambiguity and being content with the uncertainty of direction. Transcend was written in order to discern the reasons for the time you’ve misused and the indecision you may find on how to squander it next. This is meant to push you forward; it is not the end."",
   tracks: [
-    { name: 'Hello, Mountain', length: '3:32', song: new Audio('../content/assets/audio/enigma/01_hello_mountain.mp3') },
-    { name: 'Everyting', length: '3:33', song: new Audio('../content/assets/audio/enigma/02_everything.mp3') },
-    { name: 'Deer', length: '4:37', song: new Audio('../content/assets/audio/enigma/03_deer.mp3') },
-    { name: 'Something New', length: '4:24', song: new Audio('../content/assets/audio/enigma/04_something_new.mp3') },
-    { name: 'Manhattan', length: '3:58' , song: new Audio('../content/assets/audio/enigma/05_manhattan.mp3')},
-    { name: 'Over the Fence', length: '5:22', song: new Audio('../content/assets/audio/enigma/06_over_the_fence.mp3') }
+    { name: 'Hello, Mountain', length: '3:32', song: new Audio('../Content/Assets/Audio/Enigma/01_hello_mountain.mp3') },
+    { name: 'Everyting', length: '3:33', song: new Audio('../Content/Assets/Audio/Enigma/02_everything.mp3') },
+    { name: 'Deer', length: '4:37', song: new Audio('../Content/Assets/Audio/Enigma/03_deer.mp3') },
+    { name: 'Something New', length: '4:24', song: new Audio('../Content/Assets/Audio/Enigma/04_something_new.mp3') },
+    { name: 'Manhattan', length: '3:58' , song: new Audio('../Content/Assets/Audio/Enigma/05_manhattan.mp3')},
+    { name: 'Over the Fence', length: '5:22', song: new Audio('../Content/Assets/Audio/Enigma/06_over_the_fence.mp3') }
 
   ]
 };
