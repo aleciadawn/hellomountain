@@ -7,7 +7,7 @@ var albumOne = {
   name: 'Transcend',
   description: 'Transcend is the third release and is not even close to the end for the Colorado group. It is a showing of their constant movement ahead. It’s acknowledges the journey through ambiguity and being content with the uncertainty of direction. Transcend was written in order to discern the reasons for the time you’ve misused and the indecision you may find on how to squander it next. This is meant to push you forward; it is not the end.',
   pinClass:'album-one',
-  albumArtUrl: '../content/assets/images/transcend-cover.png',
+  albumArtUrl: '../Content/Assets/Images/transcend-cover.png',
   // albumDescription: "Transcend is the third release and is not even close to the end for the Colorado group. It is a showing of their constant movement ahead. It’s acknowledges the journey through ambiguity and being content with the uncertainty of direction. Transcend was written in order to discern the reasons for the time you’ve misused and the indecision you may find on how to squander it next. This is meant to push you forward; it is not the end."",
   tracks: [
     { name: 'The Window', length: '4:40', song: new Audio('../Content/Assets/Audio/Transcend/01_the_window.mp3') },
@@ -24,7 +24,7 @@ var albumTwo = {
   name: 'Machine',
   description: 'The follow up release is a polished continuation from the Denver, Colorado based trio. There is an identity in place; soaring vocals, matured arrangements, with a driving rhythm section backing it up. The EP confronts the struggles of monotony and the constant progression that comes with the state of equilibrium and the trepidation of what comes next. Each song on this record will tell you a story about yourself that helps push you forward even in your most repetitive and complacent states.',
   pinClass:'album-two',
-  albumArtUrl: '../content/assets/images/machine-cover.png',
+  albumArtUrl: '../Content/Assets/Images/machine-cover.png',
   // albumDescription: "Transcend is the third release and is not even close to the end for the Colorado group. It is a showing of their constant movement ahead. It’s acknowledges the journey through ambiguity and being content with the uncertainty of direction. Transcend was written in order to discern the reasons for the time you’ve misused and the indecision you may find on how to squander it next. This is meant to push you forward; it is not the end."",
   tracks: [
     { name: 'Squares', length: '2:38', song: new Audio('../Content/Assets/Audio/Machine/01_squares.mp3') },
@@ -40,7 +40,7 @@ var albumThree = {
   name: 'Enigma',
   description: 'The debut release from Hello, Mountain is an inception of unique sound. The band found itself difficult to define and Enigma strives to explain the mystery. It is an attempt to find a place and purpose. Enigma addresses the unknown and uncertainty in the routine, much like repeating the same word and doubting if there is still knowledge of the accent or definition. You’ll find yourself listening to the raw sounds long enough to create an anomaly within and a struggle to define what is seemingly obvious.',
   pinClass:'album-three',
-  albumArtUrl: '../content/assets/images/enigma-cover.png',
+  albumArtUrl: '../Content/Assets/Images/enigma-cover.png',
   // albumDescription: "Transcend is the third release and is not even close to the end for the Colorado group. It is a showing of their constant movement ahead. It’s acknowledges the journey through ambiguity and being content with the uncertainty of direction. Transcend was written in order to discern the reasons for the time you’ve misused and the indecision you may find on how to squander it next. This is meant to push you forward; it is not the end."",
   tracks: [
     { name: 'Hello, Mountain', length: '3:32', song: new Audio('../Content/Assets/Audio/Enigma/01_hello_mountain.mp3') },
