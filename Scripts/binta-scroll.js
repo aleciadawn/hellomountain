@@ -87,9 +87,9 @@ copJamz.controller('Album.controller', ['$scope', 'Player', function($scope, Pla
   };
 
   $scope.playTrack = function(album,track) {
+    Player.pause();
     Player.setTrack(album, track);
     Player.play();
-    console.log('Track played');
   };
 
   $scope.pauseTrack = function(album,track) {
@@ -121,6 +121,7 @@ copJamz.service('Player', function() {
       this.playing = true;
     },
     pause: function() {
+      if(!this.currentTrack)return;
       this.currentTrack.song.pause();
       this.playing = false;
     },
