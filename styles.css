@@ -68,7 +68,17 @@ body {
   transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 1024px) {
+@media screen
+  and (max-device-width: 1200px) {
+.follow {
+  position: absolute;
+  top: 7vh;
+  left: 54vw;
+  transform: translate(-50%, -50%);
+}
+}
+@media screen
+  and (max-width: 1200px) {
 .follow {
   position: absolute;
   top: 7vh;
@@ -78,7 +88,23 @@ body {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+  .h1{
+    -webkit-text-stroke: .5vw white;
+    font-size: 30vw;
+  }
+
+  .h2 {
+    font-size: 24px;
+  }
+}
+@media only screen
+  and (max-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
   .h1{
     -webkit-text-stroke: .5vw white;
     font-size: 30vw;
