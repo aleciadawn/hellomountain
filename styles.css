@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 2.5px;
+  color: #331D11;
+  background-color: #242424;
+  overflow: hidden;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("swim.jpg");
+  background-size: cover;
+}
+
+.background .water {
+  position: absolute;
+  background-image: url("swim.jpg");
+  background-size: cover;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  filter: url("#turbulence");
+}
+
+.h1{
+  -webkit-text-stroke: .25vw white;
+	-webkit-text-fill-color: transparent;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20vw;
+  font-weight: 800;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.comingSoon {
+  margin-top: -3vw;
+  text-align: right;
+  margin-bottom: 3vw;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.follow {
+  position: absolute;
+  top: 25vh;
+  left: 40vw;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 1024px) {
+.follow {
+  position: absolute;
+  top: 7vh;
+  left: 54vw;
+  transform: translate(-50%, -50%);
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+  .h1{
+    -webkit-text-stroke: .5vw white;
+    font-size: 30vw;
+  }
+
+  .h2 {
+    font-size: 24px;
+  }
+}
+
+
+
+
+
+/*
+========================
+    PRE ORDER BUTTON
+========================
+*/
+
+.preorder {
+  position: relative;
+  top: 63vh;
+}
+
+.btn {
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	width: 250px;
+	cursor: pointer;
+  margin: 0 auto;
+
+}
+
+
+.btn-one {
+	color: #FFF;
+	transition: all 0.3s;
+	position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.btn-one span {
+	transition: all 0.3s;
+}
+.btn-one::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: rgba(255,255,255,0.5);
+	border-bottom-color: rgba(255,255,255,0.5);
+	transform: scale(0.1, 1);
+}
+.btn-one:hover span {
+	letter-spacing: 2px;
+}
+.btn-one:hover::before {
+	opacity: 1;
+	transform: scale(1, 1);
+}
+.btn-one::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.3s;
+	background-color: rgba(255,255,255,0.1);
+}
+.btn-one:hover::after {
+	opacity: 0;
+	transform: scale(0.1, 1);
+}
